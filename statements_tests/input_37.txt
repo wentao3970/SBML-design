@@ -1,0 +1,14 @@
+{
+    moreWorkFlag = true;
+    factorial = 1;
+    N = 1;
+    while(moreWorkFlag){
+        factorial = factorial * N;
+        N = N + 1;
+        if (N == 4){
+		
+            moreWorkFlag = false;
+        }
+    }
+    print(factorial);
+}

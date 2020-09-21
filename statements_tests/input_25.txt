@@ -1,0 +1,13 @@
+{
+	winter = false;
+	if( not winter){
+		winter = not winter;
+		if(winter){
+			print("Winter is Coming");
+		}
+		else{}
+	}
+	else{
+	}
+
+}

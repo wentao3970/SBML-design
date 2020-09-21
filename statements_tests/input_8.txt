@@ -1,0 +1,10 @@
+{
+    a = 0;
+    if (true) {
+        a = 8;
+    }
+    if (false) {
+        a = 9;
+    }
+    print(a);
+}
