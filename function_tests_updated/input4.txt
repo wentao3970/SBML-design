@@ -1,0 +1,18 @@
+fun test(num) = {
+	if (num > 0) {
+		num = num - 5;
+		if(num > 0) {
+			num  = num - 5;
+			if(num > 0) {
+				num = num - 5;
+				if(num > 0) {
+					num = num - 5;
+				}
+			}
+		}
+	}
+} num;
+
+{
+print(test(11));
+}

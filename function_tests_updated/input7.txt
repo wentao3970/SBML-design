@@ -1,0 +1,17 @@
+fun test(x,y) = {
+    if ((x[1] + y[1]) mod 2 <> 0) {
+        print("x is odd");
+    } else {
+        while (x[1] < y[4]){
+            x[4] = x[4] - 1;
+		    x[1] = x[1] + 1;
+		}
+	}
+    output = x[4];
+}output;
+
+
+
+{
+print(test([1, 2, 3, 4, 5],[2, 4, 6, 8, 10]));
+}

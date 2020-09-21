@@ -1,0 +1,17 @@
+fun test(nums,i)= {
+    while (i < 4) {
+        cur_val = nums[i];
+        pos = i;
+        while ( pos > 0 andalso nums[pos - 1] > cur_val ) {
+            nums[pos] = nums[pos - 1];
+            pos = pos - 1;
+        }
+        nums[pos] = cur_val;
+        i = i + 1;
+    }
+    output = nums;
+}output;
+
+{
+print(test([5, 3, 14, 9],1));
+}

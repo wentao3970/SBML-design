@@ -1,0 +1,20 @@
+fun test(l,i)={
+    
+    while (i < 8){
+        j = i + 1;
+        while (j < 8){
+            if (l[i] > l[j]){
+                A = l[i];
+                l[i] = l[j];
+                l[j] = A;
+            }
+            j = j + 1;
+        }
+        i = i + 1;
+    }
+    output = l;
+} output;
+
+{
+print(test([3, 7, 6, 4, 2, 1, 5, 0],0));
+}

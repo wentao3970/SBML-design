@@ -1,0 +1,30 @@
+fun test(t,someString)= {
+	
+    if('c' in someString) {
+        print(#1t);
+    }
+    if('n' in someString) {
+        print(#2t);
+    }
+    if(True orelse False) {
+        print(#3t);
+    }
+    if(4.99<5) {
+        print(#4t);
+    }
+    if(2 * -3 == -6) {
+        print(#5t);
+    }
+    
+    lst = ['a', 1+2, 1.2e-2];
+    if( 2**2**3 == 256) {
+        print(lst);
+    }
+	output = 'over';
+} output;
+
+
+{
+print(test((1,2,3,4,5,6),"print"));
+}
+
